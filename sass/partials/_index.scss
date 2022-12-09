@@ -156,27 +156,47 @@ bottom: 0;
 }
 
  @media screen and (max-width: 1920px){
-    .card-body {
+    .card-group {
         width: 24rem;
         height: 10rem;
+        .card-img-top{
+
+            width: 50%;
+            height: 100%;
+   
+           }
+       .navbar {
+           width: 100%;
+   
+       .html {
+           width: 100%;
+       }
+       }
     
-    .card {
-        width: 24rem;
-        height: 10rem;
-    }
+   
  }
 }
 
 
  @media screen and (max-width: 1280px){
-    .card-body {
+    .card-group {
         width: 24rem;
         height: 10rem;
+        .card-img-top{
+
+            width: 50%;
+            height: 100%;
+   
+           }
+       .navbar {
+           width: 100%;
+   
+       .html {
+           width: 100%;
+       }
+       }
     
-    .card {
-        width: 24rem;
-        height: 10rem;
-    }
+ 
     
     }
 
@@ -185,27 +205,46 @@ bottom: 0;
 
 
  @media screen and (max-width: 800px){
-    .card-body {
+    .card-group {
         width: 24rem;
         height: 10rem;
+        .card-img-top{
+
+            width: 50%;
+            height: 100%;
+   
+           }
+       .navbar {
+           width: 100%;
+   
+       .html {
+           width: 100%;
+       }
+       }
     
-    .card {
-        width: 24rem;
-        height: 10rem;
-    }
+ 
     
     }
 
  }
 
  @media screen and (max-width: 480px){
-    .card-body {
-        width: 24rem;
-        height: 10rem;
-    
-    .card {
-        width: 24rem;
-        height: 10rem;
+    .card-group {
+        width: 50%;
+        height: 100%;
+        
+    .card-img-top{
+
+         width: 50%;
+         height: 100%;
+
+        }
+    .navbar {
+        width: 100%;
+
+    .html {
+        width: 100%;
+    }
     }
     
     }
