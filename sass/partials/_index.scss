@@ -14,13 +14,6 @@ html {
     
 }
 
-.tamanioCarousel {
-    margin-top: px;
-}
-
-
-
-
 .medida{
     display: flex;
      flex-direction: column;
@@ -31,7 +24,7 @@ html {
 .title {
     display: flex;
    margin-top: 20px; 
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: serif;
    font-size: 50px;
    text-decoration: underline;
    text-align: center;
@@ -58,6 +51,15 @@ html {
 
 
 .card {
+    display: variables.$displayFlex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-color: black;
+    width: 24rem;
+    
+}
+.card2 {
     display: variables.$displayFlex;
     justify-content: center;
     align-items: center;
@@ -131,11 +133,26 @@ html {
 .loremtext{
     margin-left: 40px;
     margin-right: 40px;
+    font-family: serif;
 
 }
 .text-center2
 {   text-align: center;
     z-index: 1;
+}
+.containerTicket {
+
+display: flex;
+justify-content: center;
+align-items: center;
+bottom: 0;
+}
+
+.medidaFooter2 {
+
+    display: flex;
+    position: relative;
+    bottom: 0;
 }
 
  @media screen and (max-width: 1920px){
